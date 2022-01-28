@@ -6,7 +6,7 @@ import pickle
 import random
 from scipy.sparse import csr_matrix
 from sklearn.neighbors import NearestNeighbors
-
+#collaborative filtering is used
 def main():
     warnings.simplefilter(action='ignore')
     ap = argparse.ArgumentParser()
